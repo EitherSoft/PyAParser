@@ -7,6 +7,12 @@ API Documentation:
 ---
 http://a-parser.com/wiki/user-api/
 
+Usage:
+---
+    from aparser import AParser
+    
+    aparser_api = AParser('http://aparser.host:port/API', 'password')
+
 Methods:
 ---
     ping                        - ping
